@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Manrope:wght@400;700&family=Open+Sans:wght@400;600;700&family=Unbounded:wght@300&display=swap');
+
+body {
+    background-color: rgb(208, 208, 210);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Manrope', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    height: 65px;
+    text-decoration: none;
+    align-items: center;
+    list-style-type: none;
+    background-color: black;
+    color: white;
+}
+
+nav ul li {
+    padding: 0 12px;
+}
+
+.band img {
+    height: 53px;
+    padding: 0 10px;
+}
+
+.band {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.container {
+    min-height: 59.5vh;
+    color: white;
+    background-color: black;
+    font-family: 'Manrope', sans-serif;
+    display: flex;
+    margin: 20px auto;
+    width: 50%;
+    border-radius: 12px;
+    padding: 34px;
+    background: url(head.jpg);
+}
+
+.container h1 {
+    /* color: black; */
+    /* color: rgb(84, 40, 125); */
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.bottom {
+    position: sticky;
+    color: white;
+    background-color: black;
+    height: 80px;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#progressbar {
+    width: 70vw;
+    cursor: pointer;
+}
+
+.icon {
+    margin-top: 12px;
+    font-size: 2rem;
+}
+
+.icon i {
+    cursor: pointer;
+}
+
+.songitem-container {
+    margin: 21px 0;
+}
+
+.songitem {
+    height: 40px;
+    display: flex;
+    background-color: black;
+    width: 80%;
+    margin: 9px 0;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songitem img {
+    width: 50px;
+    margin: 0 23px;
+    border-radius: 50px;
+
+}
+
+.songitem i {
+    cursor: pointer;
+    padding: 10px 10px;
+}
+
+.songinfo {
+    position: absolute;
+    left: 7vw;
+    font-family: 'Manrope', sans-serif;
+
+}
+
+.songinfo img {
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
